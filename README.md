@@ -5,7 +5,7 @@
 ## 로컬 실행
 
 1. 백엔드를 `http://localhost:8080`에서 실행합니다.
-2. 이 폴더에서 `npm install` 후 `npm run dev`를 실행합니다.
+2. 이 폴더에서 `pnpm install` 후 `pnpm dev`를 실행합니다.
 3. `http://localhost:5174`로 접속합니다.
 
 Vite가 `/api`, `/oauth2`, `/login/oauth2`를 백엔드로 프록시합니다. 세션 로그인은 브라우저 쿠키를 사용합니다. 백엔드의 개발용 CORS 설정이 `http://localhost:5174`를 허용하므로 이 주소로 접속해야 합니다. Google 로그인을 테스트하려면 백엔드에 실제 OAuth 클라이언트 값이 필요합니다.
